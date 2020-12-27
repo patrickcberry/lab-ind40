@@ -5,7 +5,8 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(pblab.xyz www.pblab.xyz)
+# domains=(pblab.xyz www.pblab.xyz)
+domains=(pblab.xyz)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="patrickcberry@gmail.com"
